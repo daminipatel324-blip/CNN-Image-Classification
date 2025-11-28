@@ -37,9 +37,11 @@ Loss Function: Sparse Categorical Crossentropy
 Metrics: Accuracy
 
 🚀 Training Results
+
 The model was trained for 5 epochs and achieved:
 
 ✅ Test Accuracy: ~70%
+
 This is a strong baseline accuracy for a simple CNN on CIFAR-10.
 
 🧪 Steps Performed
@@ -69,6 +71,14 @@ Add Dropout
 Increase epochs
 Experiment with deeper architectures
 These changes can push accuracy above 75–85%.
+
+## 📊 Model Version Comparison
+
+| Version | Description | Accuracy |
+|--------|-------------|----------|
+| **V1 – Basic CNN** | Simple CNN with 3 Conv layers | **70%** |
+| **V2 – Improved CNN** | Added Data Augmentation, Batch Normalization, Dropout, and deeper Conv layers | **78%** |
+
 
 👨‍💻 Author
 
